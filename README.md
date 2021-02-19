@@ -3,10 +3,8 @@
 ---
 todo list 
 - [x] refactor  `dataloader.py`
-
-
-- [ ] refactor  `discriminator.py`
 - [ ] refactor  `generator.py`
+- [ ] refactor  `discriminator.py`
 - [ ] refactor `rollout.py`
 - [ ] refactor `target_lstm.py`
 - [ ] refactor `sequence_gan.py`
