@@ -1,8 +1,19 @@
-# SeqGAN
+# SeqGAN With Tensorflow 2.x - Python 3.x
+## Orginal SeqGAN refactored to new version of python and tensorflow.
+---
+todo list 
+- [x] refactor  `dataloader.py`
 
+
+- [ ] refactor  `discriminator.py`
+- [ ] refactor  `generator.py`
+- [ ] refactor `rollout.py`
+- [ ] refactor `target_lstm.py`
+- [ ] refactor `sequence_gan.py`
+---
 ## Requirements: 
-* **Tensorflow r1.0.1**
-* Python 2.7
+* **Tensorflow 2.x**
+* Python 3.6 +
 * CUDA 7.5+ (For GPU)
 
 ## Introduction
@@ -84,4 +95,4 @@ epoch:	145	nll:	8.68066
 epoch:	150	nll:	8.6832
 ```
 
-Note: this code is based on the [previous work by ofirnachum](https://github.com/ofirnachum/sequence_gan). Many thanks to [ofirnachum](https://github.com/ofirnachum).
+Note: this code is based on the [previous work by ofirnachum](https://github.com/ofirnachum/sequence_gan). Many thanks to [ofirnachum](https://github.com/ofirnachum) and updated by [amin sharifi](https://github.com/bigmpc/).
